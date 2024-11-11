@@ -6,7 +6,7 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import MagicButton from "./MagicButton";
 import { useState } from "react";
 import dynamic from 'next/dynamic';
-import GridGlobe from "./GridGlobe";
+//import GridGlobe from "./GridGlobe";
 import animationData from '../../Data/confetti.json'
 
 const Lottie = dynamic(() => import('react-lottie'), { ssr: false });
@@ -135,7 +135,7 @@ export const BentoGridItem = ({
             </div>
   
             {/* for the github 3d globe */}
-            {id === 2 && <GridGlobe />}
+            {id === 2 &&  <h3>Grid Globe</h3>}
   
             {/* Tech stack list div */}
             {id === 3 && (
